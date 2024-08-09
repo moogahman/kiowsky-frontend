@@ -5,5 +5,5 @@ export interface Item {
 }
 
 export interface Items {
-    [key: string]: Item;
+    [key: string]: Item[];
 }

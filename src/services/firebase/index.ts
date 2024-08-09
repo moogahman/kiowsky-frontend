@@ -1,5 +1,5 @@
 import { getFileURL } from './getFileURL';
-import { getSidebarCategories } from './getSidebarCategories';
+import { getItems } from './getItems';
 import { verifyCode } from './verifyCode';
 
-export { getFileURL, getSidebarCategories, verifyCode };
+export { getFileURL, getItems, verifyCode };

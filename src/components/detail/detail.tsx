@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { IoIosCloseCircle } from 'react-icons/io';
 import { useNavigate, useParams } from 'react-router-dom';
 import type { MenuItemData } from '../../../types';
-import { useCart } from '../../context/cartContext'; // Import the cart context
+import { useCart } from '../../hooks/useCart'; // Import the cart context
 import './detail.css';
 
 const defaultImage = '/img/noImage.png';

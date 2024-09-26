@@ -1,5 +1,5 @@
 import { getDownloadURL, ref } from 'firebase/storage';
-import { storage } from '../config/firebaseConfig.js';
+import { storage } from '../config/firebase.js';
 
 /**
  * Retrieves the download URL for a file in Firebase Storage

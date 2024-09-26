@@ -1,7 +1,7 @@
 // TO-DO: Integrate auth with login screen
 
 import { child, get, ref } from 'firebase/database';
-import { database } from '../config/firebaseConfig.js';
+import { database } from '../config/firebase.js';
 
 /**
  * Verifies the provided code for a given kiosk

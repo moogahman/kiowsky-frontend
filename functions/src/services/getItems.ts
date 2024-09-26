@@ -5,7 +5,7 @@ import {
     ref as storageRef,
 } from 'firebase/storage';
 import type { CategoryMenuData, MenuItemData } from '../../../types/index.js';
-import { database } from '../config/firebaseConfig.js';
+import { database } from '../config/firebase.js';
 
 /**
  * Returns an object with items sorted into the categories

@@ -1,5 +1,5 @@
 import { FaTrash } from 'react-icons/fa';
-import { useCart } from '../../../context/cartContext';
+import { useCart } from '../../../hooks/useCart';
 import type { CartItemProps } from '../../../types';
 import './cartItem.css';
 
